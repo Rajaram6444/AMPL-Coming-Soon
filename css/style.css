@@ -26,7 +26,7 @@ body {
 
 section {
     position: relative;
-    background: #2980b9;
+    background: #2980b9; /* Change to blue */
     color: #000;
     text-align: center;
 }
@@ -147,7 +147,7 @@ section.main-content .form-control {
 }
 
 section.main-content .form-control:focus {
-    border-color: #0ca678; /* Switch to teal */
+    border-color: #0ca678; /* Switch to Teal */
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.2);
 }
 
