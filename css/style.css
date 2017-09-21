@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);\
+@import url('https://fonts.googleapis.com/css?family=Dosis:500|Passion+One');
 *,
 *:after,
 *::before {
@@ -9,7 +10,8 @@
 body {
     background: white;
     color: black;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Dosis', sans-serif;
     max-width: 100%;
 }
 
@@ -54,7 +56,7 @@ header i.fa {
 }
 
 header h2 {
-    font-family: 'Open Sans';
+    font-family: 'Passion One';
     font-weight: 800;
     color: white;
     text-transform: uppercase;
@@ -64,14 +66,14 @@ header h2 {
 }
 
 header p {
-    font-family: 'Open Sans';
+    font-family: 'Dosis';
     font-size: 18px;
     text-transform: capitalize;
     color: white;
 }
 
 .color {
-    background-color: #22b8cf /* Blue color backgroud */
+    background-color: #343a40 /* Blue to gray color backgroud */
 }
 
 .ss-style-doublediagonal {
@@ -126,11 +128,11 @@ section.main-content .input-group {
 }
 
 section.main-content .btn-danger {
-    background-color: #0ca678; /* Switch to Teal */
+    background-color: #868e96; /* Switch to Teal to light gray */
     min-width: 69px;
     font-size: 23px;
     padding: 0;
-    border-color: #0ca678; /* Switch to Teal */
+    border-color: #868e96; /* Switch to Teal to light gray */
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
@@ -138,7 +140,7 @@ section.main-content .btn-danger {
 section.main-content .btn-danger:hover {
     background-color: #464646;
     border-color: #464646;
-    color: #0ca678; /* Switch to Teal */
+    color: #868e96; /* Switch to Teal to light gray */
 }
 
 section.main-content .form-control {
@@ -147,7 +149,7 @@ section.main-content .form-control {
 }
 
 section.main-content .form-control:focus {
-    border-color: #0ca678; /* Switch to Teal */
+    border-color: #868e96; /* Switch to Teal to light gray */
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.2);
 }
 
@@ -179,7 +181,7 @@ section.footer p a {
     z-index: 1;
     margin-top: 10%;
     padding-top: 5px;
-    background: #15aabf; /* Change to Blue */
+    background: #343a40; /* Change to Blue to Gray */
     color: white;
     padding-bottom: 10px;
 }
@@ -191,7 +193,7 @@ section.footer p a {
     z-index: -1;
     width: 125%;
     height: 105%;
-    background: #15aabf; /* Change to Blue */
+    background: #343a40; /* Change to Blue to Gray */
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -202,7 +204,7 @@ section.footer p a {
 
 .footer::before {
     height: 50%;
-    background: #15aabf; /* Change to Blue */
+    background: #343a40; /* Change to Blue to Gray */
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
