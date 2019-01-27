@@ -87,13 +87,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <p>2017 - {{ site.title }}</p>
-                    <!--- Amazing template by M. Aghili & Ilya B
-                    <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
+                    <p><script>document.write(new Date().getFullYear())</script> - {{ site.title }}</p>
+                   <P> {% if site.owner.aboutlink.url %}<a href="{{ site.owner.aboutlink.url }}">{{ site.owner.aboutlink.caption | default: "About" }}</a> | {% endif %}
                         Design by <a target="_blank" href="http://mortezaaghili.github.io/">M. Aghili</a> + 
                         <a target="_blank" href="https://www.behance.net/gallery/18421675/Free-Bootstrap-Psd-Coming-Soon-Template">Ilya B.</a>
                     </P>
-                    -->
                 </div>
             </div>
         </div>
