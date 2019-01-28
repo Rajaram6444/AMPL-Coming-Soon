@@ -28,6 +28,7 @@ body {
 
 section {
     position: relative;
+    overflow: hidden; /* we don't want the pseudo-elements sticking out */
     background: #2980b9; /* Change to blue */
     color: #000;
     text-align: center;
@@ -78,7 +79,6 @@ header p {
 
 .ss-style-doublediagonal {
     z-index: 1;
-    overflow: hidden;
     padding-top: 2em;
     background: white;
 }
@@ -180,7 +180,6 @@ section.footer p a {
 
 .footer {
     z-index: 1;
-    overflow: hidden;
     margin-top: 10%;
     padding-top: 5px;
     background: #343a40; /* Change to Blue to Gray */
